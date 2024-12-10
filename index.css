@@ -1,0 +1,268 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    text-decoration: none;
+
+    font-style: normal;
+    
+}
+
+#titulo {
+    position: relative;
+    top: 15px;
+}
+
+button {
+    outline: none;
+    text-emphasis: none;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+body {
+    background-color:#5ca4bc;
+}
+
+.imgn {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 120px;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+    border: s #00ff88 2px;
+    margin-bottom: 100px;
+   
+    height: 120px;
+    
+}
+
+h1 {
+    color: black;
+    background: none;
+    outline: none;
+}
+
+.catalogo {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat( 4, 4fr);    
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+
+.cata2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border-radius: 100%;
+    
+}
+
+.add {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.button_cata {
+    height: 240px;
+    width: 240px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 20%;
+    font-size: 12px;
+    
+    
+    
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer ;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #5ca4bc;
+
+   
+    
+}
+
+.button_cata:hover {
+    height: 250px;
+    width: 250px;
+    transition: 500ms;   
+    box-shadow: 1px 1px 20px 0px white;
+    border: 2px solid lightskyblue;
+
+    
+}
+
+
+
+.h1catalogo {
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px;
+    top: 50px;
+}
+
+
+
+
+.imgnn {
+   width: 150px;
+   height: 150px;
+   background-color: none;
+   background: none;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    flex-direction: row;
+
+}
+
+h2 {
+    background: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    outline: none;
+    text-decoration-line:none ;
+    
+    
+}
+
+p {
+   
+   color: rgb(0, 0, 0);
+   background: none;
+}
+
+.cata {
+    height: 230px;
+    width: 210px;
+}
+
+.a_cata {
+    border: none;
+    outline: none;
+    background: none;
+    height: 240px;
+    width: 240px;
+    position: relative;
+    left: 20px;
+    
+}
+
+.th {
+    border: none;
+}
+
+.a_tit {
+    background-color: none;
+    
+    border: none;
+    outline: none;
+}
+
+.expositor{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#nav {
+    display: none;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    width: 50px;
+    height: 100px;
+    font-size: 25px;
+    top: 20px;
+    
+    
+    color: black;
+    background: none;
+    text-decoration: none
+    
+}
+
+#fechar {
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+#fechar:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    margin-top: 20px;
+}
+
+#butao {
+    outline: none;
+    border: none;
+    background-color: none;
+    background: none;
+    margin-bottom: 60px;
+    font-size: 25px;
+    
+
+}
+
+#butao:hover, .button_cata:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+

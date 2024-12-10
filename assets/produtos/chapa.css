@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Aboreto", system-ui;
+    outline: none;
+    text-decoration: none;
+
+    font-style: normal;
+    
+}
+
+body {
+    background-color: #5ca4bc;
+    
+}
+
+.imagem {
+    border: solid 2px lightskyblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#divinfo {
+    width: 650px;
+    height: 700px;
+}
+
+.div {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    position: relative;
+    right: 100px;
+}
+
+.div2 {
+    margin-top: 40px;
+
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+.imgn {
+   
+    width: 200px;
+    height: 200px;
+}
+
+.divespec {
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+    border: s #00ff88 2px;
+    
+   
+    max-height: 200px;
+    max-width: 10000px;
+    
+}
+
+#nav {
+    display: none;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    width: 50px;
+    height: 100px;
+    font-size: 25px;
+    
+    
+    color: black;
+    background: none;
+    text-decoration: none
+    
+}
+
+#fechar {
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+#fechar:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    margin-top: 20px;
+}
+
+#butao {
+    outline: none;
+    border: none;
+    background-color: none;
+    background: none;
+    margin-bottom: 60px;
+    font-size: 25px;
+    
+
+}
+
+#butao:hover, .button_cata:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+   
+    
+}

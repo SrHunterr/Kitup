@@ -1,0 +1,146 @@
+* {
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    text-decoration: none;
+
+    font-style: normal;
+    
+}
+
+body {
+    background-color: #5ca4bc;
+}
+
+.imgn {
+   
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.contato {
+    position: relative;
+    left: 50px;
+}
+
+.dprincipal {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+}
+
+a {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+
+.card {
+    border: solid 2px white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    
+    
+   
+    margin: 30px;
+    transition: width 1.5s; /* Adiciona a transição para o efeito de expansão */
+}
+
+.card-content {
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(20px); /* Inicialmente deslocado para baixo */
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Transição para opacidade e posição */
+    position: relative;
+    left: 20px;
+}
+
+.card.animacao .card-content {
+    opacity: 1; /* Tornar visível quando a animação começar */
+    transform: translateY(0); /* Voltar para a posição original */
+}
+
+.animacao {
+    width: 340px; /* O tamanho final após a animação */
+}   
+
+.center {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+    border: s #00ff88 2px;
+    margin-bottom: 100px;
+   
+    height: 120px;
+    
+}
+
+#nav {
+    display: none;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    width: 50px;
+    height: 100px;
+    font-size: 25px;
+    
+    
+    color: black;
+    background: none;
+    text-decoration: none
+    
+}
+
+#fechar {
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+}
+
+#fechar:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    margin-top: 20px;
+}
+
+#butao {
+    outline: none;
+    border: none;
+    background-color: none;
+    background: none;
+    margin-bottom: 60px;
+    font-size: 25px;
+    
+
+}
+
+#butao:hover, .button_cata:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+
